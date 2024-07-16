@@ -1,0 +1,22 @@
+.nav_bar{
+  height: 66px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    height: 32px;
+    margin-left: 35px;
+  }
+
+  .menu_items {
+    font-family: "Inter", sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    color: rgba($color: #ffffff, $alpha: 0.75);
+  }
+}
